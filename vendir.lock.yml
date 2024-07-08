@@ -1,0 +1,17 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - git:
+      commitTitle: 'VERSION.txt: this is v1.68.2...'
+      sha: c79c500c7e93c8e416c77f85d106b04a4aab23ab
+      tags:
+      - v1.68.2
+    path: tailscale
+  path: upstream/static
+- contents:
+  - helmChart:
+      appVersion: v1.68.1
+      version: 1.68.1
+    path: tailscale
+  path: upstream/charts
+kind: LockConfig

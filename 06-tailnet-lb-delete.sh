@@ -1,0 +1,1 @@
+kubectl delete -f examples/tailnet-lb.yaml
