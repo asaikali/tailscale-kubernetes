@@ -61,3 +61,9 @@ replicaset.apps/operator-7c474dcc46   1         1         1       5m2s
 ## Try out the operator
 
 follow the numbered shell scripts in this repo, study thier code and output 
+
+
+## Resources
+
+[Tailscale Kubernets Operator Docs](https://tailscale.com/kb/1236/kubernetes-operator)
+[Securing User to Service Access in Kubernetes - Maya Kaczorowski & Maisem Ali, Tailscale](https://www.youtube.com/watch?v=yvbNdZxonSs)
